@@ -197,4 +197,9 @@
       height: auto;
       display: block;
       }
+      picture img .icones{
+        min-width:20%;
+        height: auto;
+        display: block;
+      }
     }
