@@ -107,7 +107,7 @@
       padding-bottom: 0;
     }
     .imagem{
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
     }
@@ -191,5 +191,10 @@
       }
       header .info {
         flex: none;
+      }
+      .imagem{
+         width: 50%;
+      height: auto;
+      display: block;
       }
     }
