@@ -18,6 +18,11 @@
       gap: 20px;
       flex-wrap: wrap;
       justify-content: space-between;
+       background-image: url('https://www.pexels.com/pt-br/video/lago-sereno-com-vista-panoramica-da-montanha-32261421'); /* substitua pelo link da sua imagem */
+    background-size: cover;       /* cobre todo o header */
+    background-position: center;  /* centraliza a imagem */
+    background-attachment: fixed; /* fixa a imagem ao rolar a página */
+    position: relative;
     }
 
     header .info {
@@ -201,5 +206,19 @@
         min-width:20%;
         height: auto;
         display: block;
+      }
+    }
+
+    @media  screen and (max-width: 300px) {
+      header div h1{
+        font-size: 1em;      
+        
+      }
+      header div p{
+        font-size: 1cap;
+      }
+      nav a {
+        font-size: 1cap;
+        
       }
     }
