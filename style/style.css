@@ -11,6 +11,7 @@
     /* Cabeçalho */
     header {
       background-color: #007acc;
+      
       color: white;
       padding: 30px 10%;
       display: flex;
